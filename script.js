@@ -23,6 +23,14 @@ $(document).ready(function() {
     $('.hide').click(function(){
         event.stopPropagation(); 
     });
+    $('.mic').mouseover(function(){
+        $('.smalltriangle').show();
+        $('.note').show();
+    });
+    $('.mic').mouseout(function(){
+        $('.smalltriangle').hide();
+        $('.note').hide();
+    });
     $(document).click(function(){
         $('.hide').hide();
     });
