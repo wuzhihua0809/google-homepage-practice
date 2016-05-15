@@ -1,0 +1,320 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    min-height: 600px;
+    min-width: 600px;
+}
+body {
+  font-family: "Hiragino Sans GB","微软雅黑",Arial;
+  display: block;
+}
+.titlebar {
+    width: 100%;
+    height: 30px;
+    margin-top: 15px;
+}
+.titlerightbar {
+  width: 260px;
+  height: 30px;
+  font-size: 13px;
+  position: absolute;
+  right: 0px;
+}
+.gmail, .images, .nine, .account {
+  text-decoration: none;
+  color: #404040;
+  display: inline-block;
+  opacity: 0.8;
+}
+.gmail {
+  height: 24px;
+  width: 34px;
+}
+.images {
+  height: 24px;
+  width: 43px;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.nine {
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+  background-image: url('./picture/add.png');
+  background-repeat: no-repeat;
+  background-size: 528px 68px;
+  background-position: -132px -38px;
+}
+.account {
+  height: 28px;
+  width: 48px;
+  margin-left: 15px;
+  color: #fff;
+  display: inline-block;
+  line-height: 28px;
+  padding: 0 12px 0 12px;
+  background-color: #4182F3;
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+}
+.hide {
+  height: 514px;
+  width: 342px;
+  margin-top: -10px;
+  position: absolute;
+  right: 50px;
+  z-index: 1;
+  white-space: normal;
+  /*display: none;*/
+}
+.triangle {
+  width: 0px;
+  height:0px;
+  border-style: solid;
+  border-width: 8px;
+  border-color: transparent transparent  #cccccc transparent;
+  position: absolute;
+  right: 74px;
+}
+.extra {
+  height: 440px;
+  width: 308px;
+  margin-top: 16px;
+  border: 1px solid #cccccc;
+  border-bottom: 0px;
+  background: rgba(255,255,255,.9);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+}
+.mark1, .mark2, .mark3, .mark4, .mark5, .mark6, .mark7, .mark8, .mark9, .mark10, .mark11, .mark12 {
+  padding: 1px;
+  display: inline-block;
+  vertical-align: top;
+  z-index: 2;
+  height: 102px;
+  width: 96px;
+}
+.mark13 {
+  background-image: url('./picture/nine.png');
+  background-repeat: no-repeat;
+  background-size: 98px 3000px;
+  background-position: 0 -2110px;
+}
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12 {
+  width: 98px;
+  height: 84px;
+}
+.image1 {
+  background-image: url('./picture/nine.png');
+  background-repeat: no-repeat;
+  background-size: 98px 3000px;
+  background-position: 0 -2110px;
+}
+.image2 {
+  background-image: url('./picture/nine.png');
+  background-repeat: no-repeat;
+  background-size: 98px 3000px;
+  background-position: 0 -400px;
+}
+.image3 {
+  background-image: url('./picture/nine.png');
+  background-repeat: no-repeat;
+  background-size: 98px 3000px;
+  background-position: 0 -100px;
+}
+.image4 {
+  background-image: url('./picture/nine.png');
+  background-repeat: no-repeat;
+  background-size: 98px 3000px;
+  background-position: 0 -200px;
+}
+.image5 {
+  background-image: url('./picture/nine.png');
+  background-repeat: no-repeat;
+  background-size: 98px 3000px;
+  background-position: 0 -2000px;
+}
+.image6 {
+  background-image: url('./picture/nine.png');
+  background-repeat: no-repeat;
+  background-size: 98px 3000px;
+  background-position: 0 -1900px;
+}
+.image7 {
+  background-image: url('./picture/nine.png');
+  background-repeat: no-repeat;
+  background-size: 98px 3000px;
+  background-position: 0 -900px;
+}
+.image8 {
+  background-image: url('./picture/nine.png');
+  background-repeat: no-repeat;
+  background-size: 98px 3000px;
+  background-position: 0 -2200px;
+}
+.image9 {
+  background-image: url('./picture/nine.png');
+  background-repeat: no-repeat;
+  background-size: 98px 3000px;
+  background-position: 0 -2600px;
+}
+.image10 {
+  background-image: url('./picture/nine.png');
+  background-repeat: no-repeat;
+  background-size: 98px 3000px;
+  background-position: 0 -1300px;
+}
+.image11 {
+  background-image: url('./picture/nine.png');
+  background-repeat: no-repeat;
+  background-size: 98px 3000px;
+  background-position: 0 -2300px;
+}
+.image12 {
+  background-image: url('./picture/nine.png');
+  background-repeat: no-repeat;
+  background-size: 98px 3000px;
+  background-position: 0 -500px;
+}
+.letter1, .letter2, .letter3, .letter4, .letter5, .letter6, .letter7, .letter8, .letter9, .letter10, .letter11, .letter12 {
+  width: 98px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #666666;
+  text-align: center;
+}
+.separator {
+  width: 255px;
+  border-top: 1px solid #cccccc;
+  margin-left: 40px;
+  margin-top: -40px;
+}
+.extrabar {
+  width: 340px;
+  height: 40px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 40px;
+  color: #737373;
+  text-decoration: none;
+  border: 1px solid #cccccc;
+  border-top: 0px;
+  background-color: #f5f5f5;
+  position: absolute;
+  bottom: 0px;
+}
+.extrabar:hover {
+  text-decoration: underline;
+}
+.main {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  height: 233px;
+}
+.logo {
+  padding-top: 109px;
+  height: 92px;
+  width: 272px;
+  position:relative;
+  left:50%;
+  margin-left: -136px;
+}
+.searchbar {
+  height: 38px;
+  width: 500px;
+  margin: 30px auto 0 auto;
+  border: 1px solid #D9D9D9;
+}
+.searchbar:hover {
+  border-color: #4285f4;
+}
+.mic {
+  height: 34px;
+  width: 38px;
+  background-image: url('./picture/mic.png'); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 23px 25px;
+  padding-top: 4px;
+  float: right;
+}
+.content {
+  height: 35px;
+  width: 450px;
+  border: 0px;
+  padding-left: 10px;
+  font-size: 15px;
+  outline:none;
+}
+.center {
+  height: 36px;
+  width: 570px;
+  margin: 35px auto 0 auto;
+}
+.search, .feeling {
+  border: 0px;
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #757575;
+  padding: 0 16px;
+  text-align: center;
+  position: relative;
+  margin-left: 150px;
+  opacity: 1;
+}
+.search:hover, .feeling:hover {
+  color: #000;
+  outline: none;
+}
+.search {
+  height: 36px;
+  width: 126px;
+}
+.feeling {
+  height: 36px;
+  width: 140px;
+  margin: auto 0 auto 0;
+}
+.bottombar {
+  height: 40px;
+  width: 100%;
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom: 0px;
+}
+.bottomleft {
+  width: 260px;
+  height: 24px;
+  float: left;
+  margin-top: 10px;
+  display: inline-block;
+}
+.bottomright {
+  width: 260px;
+  height: 24px;
+  float: right;
+  margin-top: 10px;
+  display: inline-block;
+}
+.Advertising, .Business, .About, .Privacy, .Terms, .Settings {
+  display: inline;
+  color: #666666;
+  margin-left: 30px;
+  text-decoration: none;
+  font-size: 10px;
+}
+.gmail:hover, .images:hover, .nine:hover, .account:hover,.Advertising:hover, .Business:hover, .About:hover, .Privacy:hover, .Terms:hover, .Settings:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+
+
+
