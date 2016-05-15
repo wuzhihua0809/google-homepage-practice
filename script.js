@@ -17,7 +17,15 @@ $(document).ready(function() {
         }
     });
     $('.nine').click(function(){
-        $('.hide').toggle();
+        if ($('.hide').css('display') === "none") {
+            $('.hide').show();
+            $('.extrabar').show();
+            $('.extracontent').hide();
+            $('.separator').hide();
+            $('extra').css('height','440px');
+        } else{
+            $('.hide').hide();
+        };
         event.stopPropagation(); 
     });
     $('.hide').click(function(){
@@ -34,14 +42,17 @@ $(document).ready(function() {
     $(document).click(function(){
         $('.hide').hide();
     });
+    // $('extra').scroll(function(){
+    //     if ($(extra.scrollTop()>0)) {
+    //         $('.extrabar').hide();
+    //         $('.extracontent').show();
+    //         $('.separator').show();
+    //     } ;
+    // });
     $('.extrabar').click(function(){
-        // $('.extrabar').remove();
-        // $('.extra').css('height','480px');
-        // $('.extra').css('border-bottom','1px solid #cccccc');
-        // $('.extra').after('<div class="separator"></div>');
-        // $('.extrabar').css('background','rgba(255,255,255,.9)');
-        // $('.extrabar').css('height','378px');
-        // $('.extrabar').css('max-height','40px');
-        // $('.extrabar').append('<div class="mark13"></div>');
+        $('.extrabar').hide();
+        $('.extracontent').show();
+        $('.separator').show();
+        $('extra').css('height','800px');
     });
 });

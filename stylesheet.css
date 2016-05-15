@@ -92,8 +92,9 @@ body {
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 16px;
+  overflow-y: scroll;
 }
-.mark1, .mark2, .mark3, .mark4, .mark5, .mark6, .mark7, .mark8, .mark9, .mark10, .mark11, .mark12 {
+.mark1, .mark2, .mark3, .mark4, .mark5, .mark6, .mark7, .mark8, .mark9, .mark10, .mark11, .mark12, .mark13, .mark14, .mark15, .mark16, .mark17, .mark18, .mark19, .mark20 {
   padding: 1px;
   display: inline-block;
   vertical-align: top;
@@ -101,89 +102,83 @@ body {
   height: 102px;
   width: 96px;
 }
-.mark13 {
-  background-image: url('./picture/nine.png');
-  background-repeat: no-repeat;
-  background-size: 98px 3000px;
-  background-position: 0 -2110px;
-}
-.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12 {
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12, .image13, .image14, .image15, .image16, .image17, .image18, .image19, .image20 {
   width: 98px;
   height: 84px;
 }
 .image1 {
   background-image: url('./picture/nine.png');
   background-repeat: no-repeat;
-  background-size: 98px 3000px;
+  background-size: 100px 3000px;
   background-position: 0 -2110px;
 }
 .image2 {
   background-image: url('./picture/nine.png');
   background-repeat: no-repeat;
-  background-size: 98px 3000px;
+  background-size: 100px 3000px;
   background-position: 0 -400px;
 }
 .image3 {
   background-image: url('./picture/nine.png');
   background-repeat: no-repeat;
-  background-size: 98px 3000px;
+  background-size: 100px 3000px;
   background-position: 0 -100px;
 }
 .image4 {
   background-image: url('./picture/nine.png');
   background-repeat: no-repeat;
-  background-size: 98px 3000px;
+  background-size: 100px 3000px;
   background-position: 0 -200px;
 }
 .image5 {
   background-image: url('./picture/nine.png');
   background-repeat: no-repeat;
-  background-size: 98px 3000px;
+  background-size: 100px 3000px;
   background-position: 0 -2000px;
 }
 .image6 {
   background-image: url('./picture/nine.png');
   background-repeat: no-repeat;
-  background-size: 98px 3000px;
+  background-size: 100px 3000px;
   background-position: 0 -1900px;
 }
 .image7 {
   background-image: url('./picture/nine.png');
   background-repeat: no-repeat;
-  background-size: 98px 3000px;
+  background-size: 100px 3000px;
   background-position: 0 -900px;
 }
 .image8 {
   background-image: url('./picture/nine.png');
   background-repeat: no-repeat;
-  background-size: 98px 3000px;
+  background-size: 100px 3000px;
   background-position: 0 -2200px;
 }
 .image9 {
   background-image: url('./picture/nine.png');
   background-repeat: no-repeat;
-  background-size: 98px 3000px;
+  background-size: 100px 3000px;
   background-position: 0 -2600px;
 }
 .image10 {
   background-image: url('./picture/nine.png');
   background-repeat: no-repeat;
-  background-size: 98px 3000px;
+  background-size: 100px 3000px;
   background-position: 0 -1300px;
 }
 .image11 {
   background-image: url('./picture/nine.png');
   background-repeat: no-repeat;
-  background-size: 98px 3000px;
+  background-size: 100px 3000px;
   background-position: 0 -2300px;
 }
 .image12 {
   background-image: url('./picture/nine.png');
   background-repeat: no-repeat;
-  background-size: 98px 3000px;
+  background-size: 100px 3000px;
   background-position: 0 -500px;
 }
-.letter1, .letter2, .letter3, .letter4, .letter5, .letter6, .letter7, .letter8, .letter9, .letter10, .letter11, .letter12 {
+.letter1, .letter2, .letter3, .letter4, .letter5, .letter6, .letter7, .letter8, .letter9, .letter10, .letter11, .letter12, .letter13, .letter14, .letter15, .letter16, .letter17, .letter18, .letter19, .letter20 {
   width: 98px;
   height: 20px;
   line-height: 20px;
@@ -192,12 +187,12 @@ body {
   text-align: center;
 }
 .separator {
-  width: 255px;
-  border-top: 1px solid #cccccc;
-  margin-left: 40px;
-  margin-top: -40px;
+  width: 265px;
+  border-top: 1px solid #000;
+  margin-left: 20px;
+  margin-top: -20px;
 }
-.extrabar {
+.extrabar{
   width: 340px;
   height: 40px;
   font-size: 12px;
@@ -212,6 +207,81 @@ body {
   bottom: 0px;
 }
 .extrabar:hover {
+  text-decoration: underline;
+}
+.extracontent {
+  height: 340px;
+  width: 308px;
+  border: 1px solid #cccccc;
+  border-top: 0px;
+  background: rgba(255,255,255,.9);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  display: none;
+  z-index: 3;
+}
+.image13 {
+  background-image: url('./picture/nine.png');
+  background-repeat: no-repeat;
+  background-size: 100px 3000px;
+  background-position: 0 -2700px;
+}
+.image14 {
+  background-image: url('./picture/nine.png');
+  background-repeat: no-repeat;
+  background-size: 100px 3000px;
+  background-position: 0 -1400px;
+}
+.image15 {
+  background-image: url('./picture/nine.png');
+  background-repeat: no-repeat;
+  background-size: 100px 3000px;
+  background-position: 0 -2500px;
+}
+.image16 {
+  background-image: url('./picture/nine.png');
+  background-repeat: no-repeat;
+  background-size: 100px 3000px;
+  background-position: 0 -1800px;
+}
+.image17 {
+  background-image: url('./picture/nine.png');
+  background-repeat: no-repeat;
+  background-size: 100px 3000px;
+  background-position: 0 -1600px;
+}
+.image18 {
+  background-image: url('./picture/nine.png');
+  background-repeat: no-repeat;
+  background-size: 100px 3000px;
+  background-position: 0 -2900px;
+}
+.image19 {
+  background-image: url('./picture/nine.png');
+  background-repeat: no-repeat;
+  background-size: 100px 3000px;
+  background-position: 0 -700px;
+}
+.image20 {
+  background-image: url('./picture/nine.png');
+  background-repeat: no-repeat;
+  background-size: 100px 3000px;
+  background-position: 0 -1100px;
+}
+.morebar {
+  width: 200px;
+  height: 40px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 40px;
+  color: #737373;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+.morebar:hover {
   text-decoration: underline;
 }
 .main {
