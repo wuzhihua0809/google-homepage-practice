@@ -11,6 +11,7 @@ html, body {
 body {
   font-family: "Hiragino Sans GB","微软雅黑",Arial;
   display: block;
+  overflow: hidden;
 }
 .titlebar {
     width: 100%;
@@ -63,24 +64,26 @@ body {
   font-weight: bold;
   outline: none;
 }
-.hide {
-  height: 514px;
-  width: 342px;
-  margin-top: -10px;
-  position: absolute;
-  right: 50px;
-  z-index: 1;
-  white-space: normal;
-  display: none;
-}
 .triangle {
   width: 0px;
   height:0px;
   border-style: solid;
-  border-width: 8px;
+  border-width: 12px;
   border-color: transparent transparent  #cccccc transparent;
+  display: none;
   position: absolute;
-  right: 74px;
+  right: 120px;
+  top: 40px;
+}
+.hide {
+  height: 512px;
+  width: 342px;
+  position: absolute;
+  right: 50px;
+  z-index: 1;
+  border-bottom: 1px solid #cccccc;
+  display: none;
+  overflow: auto;
 }
 .extra {
   height: 440px;
@@ -92,7 +95,6 @@ body {
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 16px;
-  overflow-y: scroll;
 }
 .mark1, .mark2, .mark3, .mark4, .mark5, .mark6, .mark7, .mark8, .mark9, .mark10, .mark11, .mark12, .mark13, .mark14, .mark15, .mark16, .mark17, .mark18, .mark19, .mark20 {
   padding: 1px;
@@ -202,6 +204,7 @@ body {
   text-decoration: none;
   border: 1px solid #cccccc;
   border-top: 0px;
+  border-bottom: 0px;
   background-color: #f5f5f5;
   position: absolute;
   bottom: 0px;
@@ -214,6 +217,7 @@ body {
   width: 308px;
   border: 1px solid #cccccc;
   border-top: 0px;
+  border-bottom: 0px;
   background: rgba(255,255,255,.9);
   padding-left: 16px;
   padding-right: 16px;
@@ -362,10 +366,6 @@ body {
   margin-left: 150px;
   opacity: 1;
 }
-.search:hover, .feeling:hover {
-  color: #000;
-  outline: none;
-}
 .search {
   height: 36px;
   width: 126px;
@@ -374,6 +374,10 @@ body {
   height: 36px;
   width: 140px;
   margin: auto 0 auto 0;
+}
+.search:hover, .feeling:hover {
+  color: #000;
+  outline: none;
 }
 .bottombar {
   height: 40px;
@@ -407,7 +411,3 @@ body {
     opacity: 1;
     text-decoration: underline;
 }
-
-
-
-
