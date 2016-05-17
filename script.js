@@ -52,6 +52,7 @@ $(document).ready(function() {
             $('.extrabar').hide();
             $('.extracontent').show();
             $('.separator').show();
+            $('.extra').css('height','440px');
             if ($('.hide').scrollTop() == 320) {
                 $('.extracontent').css('border-bottom','1px solid #cccccc');
                 $('.hide').css('border-bottom','0px');
@@ -59,6 +60,7 @@ $(document).ready(function() {
                 $('.hide').css('border-bottom','1px solid #cccccc');
             };
         } else {
+            $('.extra').css('height','500px');
             $('.extrabar').show();
             $('.extracontent').hide();
             $('.separator').hide();
@@ -68,6 +70,7 @@ $(document).ready(function() {
         $('.extrabar').hide();
         $('.extracontent').show();
         $('.separator').show();
+        $('.extra').css('height','440px');
         $('.hide').scrollTop(320);
         $('.extracontent').css('border-bottom','1px solid #cccccc');
     });
