@@ -5,13 +5,13 @@
 html, body {
     height: 100%;
     margin: 0;
-    min-height: 600px;
-    min-width: 600px;
 }
 body {
   font-family: "Hiragino Sans GB","微软雅黑",Arial;
   display: block;
   overflow: hidden;
+  min-height: 600px;
+  min-width: 600px;
 }
 .titlebar {
     width: 100%;
@@ -86,7 +86,7 @@ body {
   overflow: auto;
 }
 .extra {
-  height: 440px;
+  height: 500px;
   width: 308px;
   margin-top: 16px;
   border: 1px solid #cccccc;
@@ -95,6 +95,7 @@ body {
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 16px;
+  overflow: auto;
 }
 .mark1, .mark2, .mark3, .mark4, .mark5, .mark6, .mark7, .mark8, .mark9, .mark10, .mark11, .mark12, .mark13, .mark14, .mark15, .mark16, .mark17, .mark18, .mark19, .mark20 {
   padding: 1px;
