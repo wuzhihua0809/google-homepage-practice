@@ -105,6 +105,9 @@ body {
   height: 102px;
   width: 96px;
 }
+.mark1:hover, .mark2:hover, .mark3:hover, .mark4:hover, .mark5:hover, .mark6:hover, .mark7:hover, .mark8:hover, .mark9:hover, .mark10:hover, .mark11:hover, .mark12:hover, .mark13:hover, .mark14:hover, .mark15:hover, .mark16:hover, .mark17:hover, .mark18:hover, .mark19:hover, .mark20:hover {
+  outline: 1px solid #c6c6c6;
+}
 .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12, .image13, .image14, .image15, .image16, .image17, .image18, .image19, .image20 {
   width: 98px;
   height: 84px;
@@ -188,6 +191,7 @@ body {
   font-size: 12px;
   color: #666666;
   text-align: center;
+  text-decoration: none;
 }
 .separator {
   width: 265px;
@@ -365,6 +369,7 @@ body {
   text-align: center;
   position: relative;
   margin-left: 150px;
+  outline: none;
   opacity: 1;
 }
 .search {
@@ -378,7 +383,7 @@ body {
 }
 .search:hover, .feeling:hover {
   color: #000;
-  outline: none;
+  outline: 1px solid #c6c6c6;
 }
 .bottombar {
   height: 40px;
