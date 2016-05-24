@@ -4,7 +4,6 @@
 }
 html, body {
     height: 100%;
-    margin: 0;
 }
 body {
   font-family: "Hiragino Sans GB","微软雅黑",Arial;
@@ -65,8 +64,8 @@ body {
   outline: none;
 }
 .triangle {
-  width: 0px;
-  height:0px;
+  width: 0;
+  height: 0;
   border-color: transparent transparent #cccccc transparent;
   border-style: dashed dashed solid;
   border-width: 0 12px 12px;
