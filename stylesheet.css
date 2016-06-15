@@ -378,7 +378,7 @@ body {
 .feeling {
   height: 36px;
   width: 140px;
-  margin: auto 0 auto 0;
+  margin: auto 0;
 }
 .search:hover, .feeling:hover {
   color: #000;
